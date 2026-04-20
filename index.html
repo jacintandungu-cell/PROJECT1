@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Wordly Dictionary SPA</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>📖 Wordly Interactive Dictionary</h1>
+    <p>Search for words, explore definitions, synonyms, and pronunciation — all without page reloads.</p>
+  </header>
+
+  <!-- Search Section -->
+  <section id="search-section">
+    <form id="searchForm" aria-label="Word search form">
+      <input type="text" id="wordInput" placeholder="Enter a word..." aria-label="Word input">
+      <button type="submit">Search</button>
+    </form>
+  </section>
+
+  <!-- Results Section -->
+  <section id="results-section">
+    <h2>Results</h2>
+    <div id="results">
+      <p>Type a word above and click search to see results here.</p>
+    </div>
+  </section>
+
+  <!-- Favorites Section -->
+  <section id="favorites-section">
+    <h2>⭐ Saved Favorites</h2>
+    <ul id="favoritesList">
+      <li>No favorites yet.</li>
+    </ul>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>Built for Wordly SPA Lab | Powered by Free Dictionary API</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
